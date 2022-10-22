@@ -5,8 +5,8 @@ function myFunction() {
 
   for(let i = 1; i <= lastRow; i++) {
     if(ss.getRange(i,2).getValue() === '完了')
-    var range = ss.getRange(i,2);
-    ss.hideRow(range);
+    var const = ss.getRange(i,2);
+    ss.hideRow(const);
   }
 
 }
